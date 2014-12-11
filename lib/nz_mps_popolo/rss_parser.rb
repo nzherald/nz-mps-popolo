@@ -1,12 +1,9 @@
-%w(rss bundler open-uri).each { |lib| require lib }
-Bundler.require
-
-module NZMPs
+module NZMPsPopolo
   class RSSParser
     URL = 'http://www.parliament.nz/en-nz/syndication?posting=/en-nz/mpp/mps/current/'
 
     def parse
-      open(URL) { |rss| RSS::Parser.parse(rss) }
+      Feedjira::Feed.fetch_and_parse URL
     end
 
     def call
