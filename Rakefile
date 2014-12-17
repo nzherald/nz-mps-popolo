@@ -1,4 +1,4 @@
-require_relative './lib/nz_mps_popolo'
+require 'bundler/gem_tasks'
 require 'rspec/core/rake_task'
 
 RSpec::Core::RakeTask.new(:spec) do |t|
