@@ -6,4 +6,6 @@ describe NZMPsPopolo::HTMLParser do
   it 'requires an mp' do
     expect { subject.new(wrong_key: 'foo') }.to raise_error KeyError
   end
+
+  it 'does not explode'
 end
