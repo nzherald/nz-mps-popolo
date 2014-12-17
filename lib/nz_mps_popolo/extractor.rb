@@ -3,49 +3,76 @@ module NZMPsPopolo
   class Extractor
     attr_reader :container, :mp, :logger
 
+    MEMBER_OF_FOLLOWING_REGEX = /Member of.*following Parliaments:?/
+    ENTERED_PARLIAMENT_REGEX = /Entered Parliament[:|;]? /
+
     def initialize(options)
       @container = options.fetch(:container)
       @mp        = options.fetch(:mp)
       @logger    = options.fetch(:logger, Logger.new(STDOUT))
+      logger.info "Extracting #{mp.name}"
     end
 
     def honorific
-      titled_name = container.find '.copy .section h1'
-      (titled_name - mp.name).strip
+      titled_name = container.find('.copy .section h1').text
+      (titled_name.sub(mp.name, '')).strip
     end
 
     def entered_parliament_at
-      str = container.find(:xpath, './/div[1]/div[1]/ul[1]/li[1]').text
-      Date.parse str.sub(/Entered Parliament: /, '')
+      str = introblock_list_items.detect { |l| l.text =~ ENTERED_PARLIAMENT_REGEX }
+            .text
+            .sub(ENTERED_PARLIAMENT_REGEX, '')
+
+      logger.debug 'Entered Parliament:'
+      logger.debug str
+      Date.parse str
     end
 
     def parliaments_in
-      str = container.find(:xpath, './/div[1]/div[1]/ul[1]/li[2]')
-      str = str.sub(/Member of the following Parliaments: /, '')
-      str.split(' and ').map { |s| s.split(', ') }.flatten.map(&:to_i)
+      str = introblock_list_items.detect { |l| l.text =~ MEMBER_OF_FOLLOWING_REGEX }
+            .text
+            .sub(MEMBER_OF_FOLLOWING_REGEX, '')
+
+      logger.debug 'Parliamentary terms:'
+      logger.debug str
+      str.split(' and ').map { |s| s.split(',') }.flatten.map(&:to_i)
     end
 
     def electoral_history
       rows = container.find(:xpath, './/div[1]/div[1]/table/tbody').all('tr')
       rows.map do |row|
         cells = row.all('td')
+        next if cells[2].text.strip == 'Date'
         generate_parliamentary_membership(cells)
       end
     end
 
     def current_roles
-      container.find(:xpath, './/div[1]/div[2]/ul').all('li').map(&:text)
+      uls = container.find('.copy > div > div:nth-child(3)').all('ul')
+      uls.map do |ul|
+        ul.all('li').map(&:text)
+      end.flatten
     end
 
     def former_roles
       roles = {}
-      sections = container.find(:xpath, './/div[1]/div[3]').all('.section')
+
+      begin
+        sections = container.find(:xpath, './/div[1]/div[3]').all('.section')
+      rescue Capybara::ElementNotFound
+        return
+      end
 
       sections.each do |section|
-        type = section.find('h3').text
+        # Guard required as Chris Hipkins page has an empty div
+        next unless section.has_selector?('ul')
+
+        type = section.all('h3, h4').last.text
         roles[type] = []
-        section.find('ul').all('li').each do |li|
-          roles[type] << li.text
+        section.all('ul').each do |ul|
+          ul.all('li').each do |li|
+            roles[type] << li.text
+          end
         end
       end
 
@@ -73,10 +100,16 @@ module NZMPsPopolo
 
       party_name = cells[1].text
       date_range = cells[2].text.sub(/–/, '-').strip.split('-').map(&:strip)
+
       start_date, end_date = date_range.map { |str| Date.parse(str) }
 
       { electorate: electorate, list: list, party_name: party_name,
         start_date: start_date, end_date: end_date }
+    end
+
+    def introblock_list_items
+      uls = container.find('.copy > div.section:first-of-type > div.section:first-of-type').all('ul')
+      uls.map { |ul| ul.all('li').to_a }.flatten
     end
   end
 end

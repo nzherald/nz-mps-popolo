@@ -1,6 +1,3 @@
-require 'bundler'
-Bundler.require
-
 require 'nz_mps_popolo/rss_parser'
 require 'nz_mps_popolo/html_parser'
 require 'nz_mps_popolo/extractor'
@@ -18,11 +15,11 @@ module NZMPsPopolo
 
     mps = parser.mps
     parties = Party.from_mps(mps)
-    mps.map do |mp|
+    details = mps.map do |mp|
       html_parser = HTMLParser.new(mp: mp)
       html_parser.call
     end
 
-    { parties: parties, mps: mps }
+    { parties: parties, mps: mps, details: details }
   end
 end

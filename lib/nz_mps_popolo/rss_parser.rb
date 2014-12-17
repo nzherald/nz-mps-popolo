@@ -1,3 +1,5 @@
+require 'feedjira'
+
 module NZMPsPopolo
   class RSSParser
     attr_reader :feed, :last_modified, :mps
