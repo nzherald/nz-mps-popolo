@@ -22,4 +22,9 @@ describe NZMPsPopolo::MP do
 
   end
 
+  it 'combines the first_names and last_name' do
+    mp = subject.new(valid_attributes)
+    expect(mp.name).to eq 'Juanita Smith'
+  end
+
 end
