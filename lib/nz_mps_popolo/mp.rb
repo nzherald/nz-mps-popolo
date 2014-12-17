@@ -10,5 +10,9 @@ module NZMPsPopolo
       @electorate, @list       = options[:electorate], options.fetch(:list)
       @details_url             = options[:details_url]
     end
+
+    def name
+      [first_names, last_name].join ' '
+    end
   end
 end
