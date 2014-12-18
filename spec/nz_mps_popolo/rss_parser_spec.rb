@@ -1,7 +1,13 @@
 require 'spec_helper'
 
 describe NZMPsPopolo::RSSParser do
-  before { subject.call }
+  subject do
+    NZMPsPopolo::RSSParser.new(feed_url: "file://#{File.expand_path('../../fixtures/feed.rss', __FILE__)}")
+  end
+
+  before do
+    subject.call
+  end
 
   it 'returns an RSS feed' do
     expect(subject.feed).to be_a Feedjira::Parser::Atom

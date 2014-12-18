@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">NZ Parliament - Current MPs</title>
+  <subtitle type="text" />
+  <id>http://www.parliament.nz/en-nz/syndication?posting=/en-nz/mpp/mps/current/</id>
+  <updated>2014-12-12T11:00:00+13:00</updated>
+  <author>
+    <name>parliament.govt.nz</name>
+  </author>
+  <link rel="alternate" href="http://www.parliament.nz/en-nz/syndication?posting=/en-nz/mpp/mps/current/" />
+  <link rel="self" href="http://www.parliament.nz/en-nz/syndication?posting=/en-nz/mpp/mps/current/" />
+  <entry>
+    <id>51MP2691</id>
+    <title type="text">Adams, Amy</title>
+    <updated>2014-11-19T09:55:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2691" />
+    <content type="text">National Party, Selwyn</content>
+  </entry>
+  <entry>
+    <id>51MP3011</id>
+    <title type="text">Ardern, Jacinda</title>
+    <updated>2014-12-01T11:24:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3011" />
+    <content type="text">Labour Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2831</id>
+    <title type="text">Bakshi, Kanwaljit Singh</title>
+    <updated>2014-09-23T12:25:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2831" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3551</id>
+    <title type="text">Ball, Darroch</title>
+    <updated>2014-11-20T15:33:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3551" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3471</id>
+    <title type="text">Barclay, Todd</title>
+    <updated>2014-11-20T10:40:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3471" />
+    <content type="text">National Party, Clutha-Southland</content>
+  </entry>
+  <entry>
+    <id>51MP3121</id>
+    <title type="text">Barry, Maggie</title>
+    <updated>2014-09-23T12:34:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3121" />
+    <content type="text">National Party, North Shore</content>
+  </entry>
+  <entry>
+    <id>51MP3501</id>
+    <title type="text">Bayly, Andrew</title>
+    <updated>2014-11-20T13:28:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3501" />
+    <content type="text">National Party, Hunua</content>
+  </entry>
+  <entry>
+    <id>51MP2511</id>
+    <title type="text">Bennett,  Paula</title>
+    <updated>2014-10-09T12:46:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2511" />
+    <content type="text">National Party, Upper Harbour</content>
+  </entry>
+  <entry>
+    <id>51MP2331</id>
+    <title type="text">Bennett, David</title>
+    <updated>2014-09-23T07:45:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2331" />
+    <content type="text">National Party, Hamilton East</content>
+  </entry>
+  <entry>
+    <id>51MP3601</id>
+    <title type="text">Bindra, Mahesh</title>
+    <updated>2014-11-20T15:55:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3601" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3531</id>
+    <title type="text">Bishop, Chris</title>
+    <updated>2014-11-20T10:40:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3531" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2421</id>
+    <title type="text">Borrows, Chester</title>
+    <updated>2014-10-09T12:19:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2421" />
+    <content type="text">National Party, Whanganui</content>
+  </entry>
+  <entry>
+    <id>51MP2701</id>
+    <title type="text">Bridges, Simon</title>
+    <updated>2014-12-04T10:53:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2701" />
+    <content type="text">National Party, Tauranga</content>
+  </entry>
+  <entry>
+    <id>51MP3131</id>
+    <title type="text">Browning, Steffan</title>
+    <updated>2014-10-22T08:47:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3131" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP141</id>
+    <title type="text">Brownlee, Gerry</title>
+    <updated>2014-12-04T07:53:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP141" />
+    <content type="text">National Party, Ilam</content>
+  </entry>
+  <entry>
+    <id>51MP171</id>
+    <title type="text">Carter, David</title>
+    <updated>2014-12-04T08:05:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP171" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3141</id>
+    <title type="text">Clark, David</title>
+    <updated>2014-12-01T10:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3141" />
+    <content type="text">Labour Party, Dunedin North</content>
+  </entry>
+  <entry>
+    <id>51MP3061</id>
+    <title type="text">Clendon, David</title>
+    <updated>2014-12-04T08:50:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3061" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2361</id>
+    <title type="text">Coleman, Jonathan</title>
+    <updated>2014-10-09T08:11:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2361" />
+    <content type="text">National Party, Northcote</content>
+  </entry>
+  <entry>
+    <id>51MP2021</id>
+    <title type="text">Collins, Judith</title>
+    <updated>2014-12-04T08:19:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2021" />
+    <content type="text">National Party, Papakura</content>
+  </entry>
+  <entry>
+    <id>51MP1591</id>
+    <title type="text">Cosgrove, Clayton</title>
+    <updated>2014-12-01T10:44:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP1591" />
+    <content type="text">Labour Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP1601</id>
+    <title type="text">Cunliffe, David</title>
+    <updated>2014-12-01T10:26:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP1601" />
+    <content type="text">Labour Party, New Lynn</content>
+  </entry>
+  <entry>
+    <id>51MP2711</id>
+    <title type="text">Curran, Clare</title>
+    <updated>2014-11-25T14:31:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2711" />
+    <content type="text">Labour Party, Dunedin South</content>
+  </entry>
+  <entry>
+    <id>51MP3431</id>
+    <title type="text">Davis, Kelvin</title>
+    <updated>2014-12-01T11:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3431" />
+    <content type="text">Labour Party, Te Tai Tokerau</content>
+  </entry>
+  <entry>
+    <id>51MP2371</id>
+    <title type="text">Dean, Jacqui</title>
+    <updated>2014-11-19T08:36:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2371" />
+    <content type="text">National Party, Waitaki</content>
+  </entry>
+  <entry>
+    <id>51MP3001</id>
+    <title type="text">Delahunty, Catherine</title>
+    <updated>2014-10-22T09:21:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3001" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3611</id>
+    <title type="text">Doocey, Matt</title>
+    <updated>2014-11-20T11:47:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3611" />
+    <content type="text">National Party, Waimakariri</content>
+  </entry>
+  <entry>
+    <id>51MP3631</id>
+    <title type="text">Dowie, Sarah</title>
+    <updated>2014-11-20T13:57:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3631" />
+    <content type="text">National Party, Invercargill</content>
+  </entry>
+  <entry>
+    <id>51MP271</id>
+    <title type="text">Dunne, Peter</title>
+    <updated>2014-12-04T12:07:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP271" />
+    <content type="text">United Future, Ōhāriu</content>
+  </entry>
+  <entry>
+    <id>51MP291</id>
+    <title type="text">Dyson, Ruth</title>
+    <updated>2014-11-25T15:25:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP291" />
+    <content type="text">Labour Party, Port Hills</content>
+  </entry>
+  <entry>
+    <id>51MP321</id>
+    <title type="text">English, Bill</title>
+    <updated>2014-10-09T08:41:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP321" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3091</id>
+    <title type="text">Faafoi, Kris</title>
+    <updated>2014-11-25T15:32:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3091" />
+    <content type="text">Labour Party, Mana</content>
+  </entry>
+  <entry>
+    <id>51MP2541</id>
+    <title type="text">Finlayson, Christopher</title>
+    <updated>2014-12-04T11:30:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2541" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2451</id>
+    <title type="text">Flavell, Te Ururoa</title>
+    <updated>2014-12-04T13:44:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2451" />
+    <content type="text">Maori Party, Waiariki</content>
+  </entry>
+  <entry>
+    <id>51MP2401</id>
+    <title type="text">Foss, Craig</title>
+    <updated>2014-11-17T08:53:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2401" />
+    <content type="text">National Party, Tukituki</content>
+  </entry>
+  <entry>
+    <id>51MP3381</id>
+    <title type="text">Foster-Bell, Paul</title>
+    <updated>2014-09-23T09:17:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3381" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3451</id>
+    <title type="text">Fox, Marama</title>
+    <updated>2014-12-04T09:30:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3451" />
+    <content type="text">Maori Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3151</id>
+    <title type="text">Genter, Julie Anne</title>
+    <updated>2014-10-22T09:41:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3151" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP381</id>
+    <title type="text">Goff, Phil</title>
+    <updated>2014-12-01T11:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP381" />
+    <content type="text">Labour Party, Mt Roskill</content>
+  </entry>
+  <entry>
+    <id>51MP3161</id>
+    <title type="text">Goldsmith, Paul</title>
+    <updated>2014-09-23T09:26:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3161" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2321</id>
+    <title type="text">Goodhew, Jo</title>
+    <updated>2014-11-20T09:32:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2321" />
+    <content type="text">National Party, Rangitata</content>
+  </entry>
+  <entry>
+    <id>51MP3031</id>
+    <title type="text">Graham, Kennedy</title>
+    <updated>2014-12-04T10:23:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3031" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2551</id>
+    <title type="text">Groser, Tim</title>
+    <updated>2014-09-23T09:39:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2551" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2561</id>
+    <title type="text">Guy, Nathan</title>
+    <updated>2014-11-17T09:46:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2561" />
+    <content type="text">National Party, Ōtaki</content>
+  </entry>
+  <entry>
+    <id>51MP2901</id>
+    <title type="text">Hague, Kevin</title>
+    <updated>2014-10-22T10:34:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2901" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3411</id>
+    <title type="text">Hayes, Joanne</title>
+    <updated>2014-11-17T09:52:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3411" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3461</id>
+    <title type="text">Henare, Peeni</title>
+    <updated>2014-12-01T10:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3461" />
+    <content type="text">Labour Party, Tāmaki Makaurau</content>
+  </entry>
+  <entry>
+    <id>51MP2871</id>
+    <title type="text">Hipkins, Chris</title>
+    <updated>2014-12-04T16:12:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2871" />
+    <content type="text">Labour Party, Rimutaka</content>
+  </entry>
+  <entry>
+    <id>51MP3521</id>
+    <title type="text">Hudson, Brett</title>
+    <updated>2014-11-21T11:35:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3521" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3071</id>
+    <title type="text">Hughes, Gareth</title>
+    <updated>2014-10-22T13:35:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3071" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2681</id>
+    <title type="text">Joyce, Steven</title>
+    <updated>2014-12-05T10:24:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2681" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2731</id>
+    <title type="text">Kaye, Nikki</title>
+    <updated>2014-11-20T10:38:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2731" />
+    <content type="text">National Party, Auckland Central</content>
+  </entry>
+  <entry>
+    <id>51MP2111</id>
+    <title type="text">Key, John</title>
+    <updated>2014-11-24T10:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2111" />
+    <content type="text">National Party, Helensville</content>
+  </entry>
+  <entry>
+    <id>51MP581</id>
+    <title type="text">King, Annette</title>
+    <updated>2014-11-24T12:25:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP581" />
+    <content type="text">Labour Party, Rongotai</content>
+  </entry>
+  <entry>
+    <id>51MP3621</id>
+    <title type="text">Korako, Tutehounuku (Nuk)</title>
+    <updated>2014-11-21T09:11:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3621" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3511</id>
+    <title type="text">Kuriger, Barbara</title>
+    <updated>2014-11-21T09:37:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3511" />
+    <content type="text">National Party, Taranaki-King Country</content>
+  </entry>
+  <entry>
+    <id>51MP2741</id>
+    <title type="text">Lee, Melissa</title>
+    <updated>2014-09-23T11:42:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2741" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2751</id>
+    <title type="text">Lees-Galloway, Iain</title>
+    <updated>2014-11-25T17:07:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2751" />
+    <content type="text">Labour Party, Palmerston North</content>
+  </entry>
+  <entry>
+    <id>51MP3181</id>
+    <title type="text">Little, Andrew</title>
+    <updated>2014-12-12T11:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3181" />
+    <content type="text">Labour Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3191</id>
+    <title type="text">Logie, Jan</title>
+    <updated>2014-10-22T10:55:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3191" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2761</id>
+    <title type="text">Lotu-Iiga, Peseta Sam</title>
+    <updated>2014-09-23T11:51:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2761" />
+    <content type="text">National Party, Maungakiekie</content>
+  </entry>
+  <entry>
+    <id>51MP2921</id>
+    <title type="text">Macindoe, Tim</title>
+    <updated>2014-12-11T11:59:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2921" />
+    <content type="text">National Party, Hamilton West</content>
+  </entry>
+  <entry>
+    <id>51MP661</id>
+    <title type="text">Mahuta, Nanaia</title>
+    <updated>2014-11-25T08:24:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP661" />
+    <content type="text">Labour Party, Hauraki-Waikato</content>
+  </entry>
+  <entry>
+    <id>51MP671</id>
+    <title type="text">Mallard, Trevor</title>
+    <updated>2014-12-04T08:36:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP671" />
+    <content type="text">Labour Party, Hutt South</content>
+  </entry>
+  <entry>
+    <id>51MP691</id>
+    <title type="text">Mark, Ron</title>
+    <updated>2014-12-02T16:03:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP691" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3211</id>
+    <title type="text">Martin, Tracey</title>
+    <updated>2014-09-23T11:53:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3211" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3261</id>
+    <title type="text">Mathers, Mojo</title>
+    <updated>2014-10-22T09:03:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3261" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2801</id>
+    <title type="text">McClay, Todd</title>
+    <updated>2014-11-17T12:09:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2801" />
+    <content type="text">National Party, Rotorua</content>
+  </entry>
+  <entry>
+    <id>51MP731</id>
+    <title type="text">McCully, Murray</title>
+    <updated>2014-12-04T12:15:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP731" />
+    <content type="text">National Party, East Coast Bays</content>
+  </entry>
+  <entry>
+    <id>51MP3271</id>
+    <title type="text">McKelvie, Ian</title>
+    <updated>2014-09-23T13:08:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3271" />
+    <content type="text">National Party, Rangitikei</content>
+  </entry>
+  <entry>
+    <id>51MP3541</id>
+    <title type="text">Mitchell, Clayton</title>
+    <updated>2014-11-21T10:13:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3541" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3281</id>
+    <title type="text">Mitchell, Mark</title>
+    <updated>2014-09-23T13:22:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3281" />
+    <content type="text">National Party, Rodney</content>
+  </entry>
+  <entry>
+    <id>51MP2481</id>
+    <title type="text">Moroney, Sue</title>
+    <updated>2014-12-01T12:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2481" />
+    <content type="text">Labour Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3651</id>
+    <title type="text">Muller, Todd</title>
+    <updated>2014-11-21T12:39:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3651" />
+    <content type="text">National Party, Bay of Plenty</content>
+  </entry>
+  <entry>
+    <id>51MP2931</id>
+    <title type="text">Nash, Stuart</title>
+    <updated>2014-12-01T10:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2931" />
+    <content type="text">Labour Party, Napier</content>
+  </entry>
+  <entry>
+    <id>51MP3591</id>
+    <title type="text">Naylor, Jono</title>
+    <updated>2014-11-23T14:15:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3591" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3291</id>
+    <title type="text">Ngaro, Alfred</title>
+    <updated>2014-09-22T16:45:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3291" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2671</id>
+    <title type="text">Norman, Russel</title>
+    <updated>2014-10-22T10:19:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2671" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP831</id>
+    <title type="text">O'Connor, Damien</title>
+    <updated>2014-11-25T09:19:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP831" />
+    <content type="text">Labour Party, West Coast-Tasman</content>
+  </entry>
+  <entry>
+    <id>51MP3301</id>
+    <title type="text">O'Connor, Simon</title>
+    <updated>2014-11-25T13:32:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3301" />
+    <content type="text">National Party, Tāmaki</content>
+  </entry>
+  <entry>
+    <id>51MP3311</id>
+    <title type="text">O'Rourke, Denis</title>
+    <updated>2014-12-04T12:08:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3311" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP2141</id>
+    <title type="text">Paraone, Pita</title>
+    <updated>2014-11-23T09:25:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2141" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP2941</id>
+    <title type="text">Parata, Hekia</title>
+    <updated>2014-10-17T13:54:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2941" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2151</id>
+    <title type="text">Parker, David</title>
+    <updated>2014-12-04T11:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2151" />
+    <content type="text">Labour Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3661</id>
+    <title type="text">Parmar, Parmjeet</title>
+    <updated>2014-11-23T14:55:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3661" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP861</id>
+    <title type="text">Peters, Winston</title>
+    <updated>2014-12-04T12:13:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP861" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3221</id>
+    <title type="text">Prosser, Richard</title>
+    <updated>2014-09-23T13:19:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3221" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3671</id>
+    <title type="text">Reti, Shane</title>
+    <updated>2014-11-23T14:21:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3671" />
+    <content type="text">National Party, Whangarei</content>
+  </entry>
+  <entry>
+    <id>51MP2811</id>
+    <title type="text">Robertson, Grant</title>
+    <updated>2014-12-04T14:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2811" />
+    <content type="text">Labour Party, Wellington Central</content>
+  </entry>
+  <entry>
+    <id>51MP3231</id>
+    <title type="text">Roche, Denise</title>
+    <updated>2014-10-22T10:25:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3231" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3101</id>
+    <title type="text">Ross, Jami-Lee</title>
+    <updated>2014-11-17T11:33:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3101" />
+    <content type="text">National Party, Botany</content>
+  </entry>
+  <entry>
+    <id>51MP3481</id>
+    <title type="text">Rurawhe, Adrian</title>
+    <updated>2014-11-25T11:37:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3481" />
+    <content type="text">Labour Party, Te Tai Hauāuru</content>
+  </entry>
+  <entry>
+    <id>51MP3241</id>
+    <title type="text">Sabin, Mike</title>
+    <updated>2014-09-23T14:02:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3241" />
+    <content type="text">National Party, Northland</content>
+  </entry>
+  <entry>
+    <id>51MP3251</id>
+    <title type="text">Sage, Eugenie</title>
+    <updated>2014-10-22T11:36:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3251" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3581</id>
+    <title type="text">Salesa, Jenny</title>
+    <updated>2014-12-11T11:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3581" />
+    <content type="text">Labour Party, Manukau East</content>
+  </entry>
+  <entry>
+    <id>51MP3491</id>
+    <title type="text">Scott, Alastair</title>
+    <updated>2014-11-22T12:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3491" />
+    <content type="text">National Party, Wairarapa</content>
+  </entry>
+  <entry>
+    <id>51MP2971</id>
+    <title type="text">Sepuloni, Carmel</title>
+    <updated>2014-12-04T12:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2971" />
+    <content type="text">Labour Party, Kelston</content>
+  </entry>
+  <entry>
+    <id>51MP3441</id>
+    <title type="text">Seymour, David</title>
+    <updated>2014-11-23T09:58:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3441" />
+    <content type="text">ACT New Zealand, Epsom</content>
+  </entry>
+  <entry>
+    <id>51MP3571</id>
+    <title type="text">Shaw, James</title>
+    <updated>2014-12-04T10:24:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3571" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3051</id>
+    <title type="text">Shearer, David</title>
+    <updated>2014-11-25T14:15:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3051" />
+    <content type="text">Labour Party, Mt Albert</content>
+  </entry>
+  <entry>
+    <id>51MP3321</id>
+    <title type="text">Simpson, Scott</title>
+    <updated>2014-09-23T14:28:00+12:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3321" />
+    <content type="text">National Party, Coromandel</content>
+  </entry>
+  <entry>
+    <id>51MP2661</id>
+    <title type="text">Sio, Su'a William</title>
+    <updated>2014-11-24T10:40:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2661" />
+    <content type="text">Labour Party, Māngere</content>
+  </entry>
+  <entry>
+    <id>51MP1021</id>
+    <title type="text">Smith, Nick</title>
+    <updated>2014-11-18T10:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP1021" />
+    <content type="text">National Party, Nelson</content>
+  </entry>
+  <entry>
+    <id>51MP3641</id>
+    <title type="text">Smith, Stuart</title>
+    <updated>2014-11-23T10:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3641" />
+    <content type="text">National Party, Kaikōura</content>
+  </entry>
+  <entry>
+    <id>51MP2211</id>
+    <title type="text">Stewart, Barbara</title>
+    <updated>2014-12-04T13:45:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2211" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3561</id>
+    <title type="text">Tabuteau , Fletcher</title>
+    <updated>2014-11-23T12:25:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3561" />
+    <content type="text">NZ First, List</content>
+  </entry>
+  <entry>
+    <id>51MP3371</id>
+    <title type="text">Tirikatene, Rino</title>
+    <updated>2014-11-25T10:49:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3371" />
+    <content type="text">Labour Party, Te Tai Tonga</content>
+  </entry>
+  <entry>
+    <id>51MP1801</id>
+    <title type="text">Tisch, Lindsay</title>
+    <updated>2014-10-21T14:14:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP1801" />
+    <content type="text">National Party, Waikato</content>
+  </entry>
+  <entry>
+    <id>51MP1811</id>
+    <title type="text">Tolley, Anne</title>
+    <updated>2014-10-17T12:59:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP1811" />
+    <content type="text">National Party, East Coast</content>
+  </entry>
+  <entry>
+    <id>51MP2221</id>
+    <title type="text">Turei, Metiria</title>
+    <updated>2014-10-22T11:48:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2221" />
+    <content type="text">Green Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2981</id>
+    <title type="text">Twyford, Phil</title>
+    <updated>2014-11-24T11:00:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2981" />
+    <content type="text">Labour Party, Te Atatū</content>
+  </entry>
+  <entry>
+    <id>51MP2781</id>
+    <title type="text">Upston, Louise</title>
+    <updated>2014-10-17T14:17:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2781" />
+    <content type="text">National Party, Taupō</content>
+  </entry>
+  <entry>
+    <id>51MP2571</id>
+    <title type="text">Wagner, Nicky</title>
+    <updated>2014-10-17T14:11:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2571" />
+    <content type="text">National Party, Christchurch Central</content>
+  </entry>
+  <entry>
+    <id>51MP2651</id>
+    <title type="text">Wall, Louisa</title>
+    <updated>2014-12-04T11:14:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2651" />
+    <content type="text">Labour Party, Manurewa</content>
+  </entry>
+  <entry>
+    <id>51MP3401</id>
+    <title type="text">Whaitiri, Meka</title>
+    <updated>2014-11-25T11:20:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3401" />
+    <content type="text">Labour Party, Ikaroa-Rāwhiti</content>
+  </entry>
+  <entry>
+    <id>51MP3421</id>
+    <title type="text">Williams, Poto</title>
+    <updated>2014-12-04T11:28:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3421" />
+    <content type="text">Labour Party, Christchurch East</content>
+  </entry>
+  <entry>
+    <id>51MP1151</id>
+    <title type="text">Williamson, Maurice</title>
+    <updated>2014-12-04T13:54:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP1151" />
+    <content type="text">National Party, Pakuranga</content>
+  </entry>
+  <entry>
+    <id>51MP2991</id>
+    <title type="text">Woodhouse, Michael</title>
+    <updated>2014-10-17T13:26:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2991" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP3351</id>
+    <title type="text">Woods, Megan</title>
+    <updated>2014-12-01T11:10:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3351" />
+    <content type="text">Labour Party, Wigram</content>
+  </entry>
+  <entry>
+    <id>51MP3361</id>
+    <title type="text">Yang, Jian</title>
+    <updated>2014-10-17T13:16:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP3361" />
+    <content type="text">National Party, List</content>
+  </entry>
+  <entry>
+    <id>51MP2791</id>
+    <title type="text">Young, Jonathan</title>
+    <updated>2014-10-21T11:03:00+13:00</updated>
+    <link rel="alternate" href="http://www.parliament.nz/en-nz/?document=51MP2791" />
+    <content type="text">National Party, New Plymouth</content>
+  </entry>
+</feed>

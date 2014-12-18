@@ -2,12 +2,15 @@ require 'feedjira'
 
 module NZMPsPopolo
   class RSSParser
-    attr_reader :feed, :last_modified, :mps
-
+    attr_reader :feed, :last_modified, :mps, :feed_url
     URL = 'http://www.parliament.nz/en-nz/syndication?posting=/en-nz/mpp/mps/current/'
 
+    def initialize(options = {})
+      @feed_url = options.fetch(:feed_url, URL)
+    end
+
     def parse
-      @feed = Feedjira::Feed.fetch_and_parse URL
+      @feed = Feedjira::Feed.fetch_and_parse feed_url
       @mps = generate_from_feed
     end
 
