@@ -21,7 +21,7 @@ not yet ready for production.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'nz_mps_popolo'
+gem 'nz_mps_popolo', github: 'nzherald/nz-mps-popolo'
 ```
 
 And then execute:
