@@ -5,7 +5,6 @@ require 'nz_mps_popolo/mp'
 require 'nz_mps_popolo/party'
 require 'nz_mps_popolo/parliament'
 
-
 # New Zealand Members of Parliament RSS Parser
 # Scraper and Popolo spec formatter
 module NZMPsPopolo

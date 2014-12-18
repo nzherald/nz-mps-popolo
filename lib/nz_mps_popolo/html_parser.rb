@@ -8,11 +8,13 @@ module NZMPsPopolo
 
   class HTMLParser
     include Capybara::DSL
+    CONTAINER_CSS_PATH = '#mainContent #content .contentBody'
 
-    attr_reader :mp
+    attr_reader :mp, :extractor
 
     def initialize(options = {})
       @mp = options.fetch(:mp)
+      @extractor = options.fetch(:extractor, Extractor)
       Capybara.current_driver = :mechanize
       Capybara.run_server = false
       Capybara.app_host = BASE_URL
@@ -23,14 +25,16 @@ module NZMPsPopolo
       process(mp)
     end
 
+    def container
+      visit mp.details_url
+      find CONTAINER_CSS_PATH
+    end
+
     private
 
     def process(mp)
-      details = { mp: mp }
-
-      visit mp.details_url
-      container = find '#mainContent #content .contentBody'
-      extractor = Extractor.new(container: container, mp: mp)
+      details = {}
+      @extractor = extractor.new(container: container, mp: mp)
 
       %i(honorific entered_parliament_at parliaments_in electoral_history
          current_roles former_roles image links).each do |key|
