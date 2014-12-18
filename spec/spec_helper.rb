@@ -3,6 +3,11 @@ Bundler.require(:default, :test)
 
 require 'nz_mps_popolo'
 
+VCR.configure do |c|
+  c.cassette_library_dir = File.expand_path '../fixtures/vcr_cassettes', __FILE__
+  c.hook_into :webmock
+end
+
 RSpec.configure do |config|
 
   config.expect_with :rspec do |expectations|
