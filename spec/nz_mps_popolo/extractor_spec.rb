@@ -41,16 +41,28 @@ describe NZMPsPopolo::Extractor do
         options.find { |o| o[:mp].name == 'Gerry Brownlee' }
       end
 
-      it 'has the correct honorific' do
+      it 'returns the correct honorific' do
         expect(subject.honorific).to eq 'Hon'
       end
 
-      it 'has the correct entered_parliament_at' do
+      it 'returns the correct entered_parliament_at' do
         expect(subject.entered_parliament_at).to eq Date.parse('14 October 1996')
       end
 
-      it 'has the correct list of parliaments_in' do
+      it 'returns the correct list of parliaments_in' do
         expect(subject.parliaments_in).to eq [45, 46, 47, 48, 49, 50, 51]
+      end
+
+      it 'returns the correct electoral history' do
+        hist = subject.electoral_history
+
+        expect(hist).to eq([
+                             electorate: "Ilam",
+                             list: false,
+                             party_name: "National Party",
+                             start_date: Date.parse('1996-10-14'),
+                             end_date: nil
+                           ])
       end
     end
 
