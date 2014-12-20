@@ -31,6 +31,28 @@ describe NZMPsPopolo::Extractor do
         expect { ext.public_send(meth) }.to_not raise_error
       end
     end
+  end
+
+  describe 'samples of MP fixtures' do
+    subject { NZMPsPopolo::Extractor.new(opts.merge(logger: NullLogger.new)) }
+
+    context 'Gerry Brownlee' do
+      let(:opts) do
+        options.find { |o| o[:mp].name == 'Gerry Brownlee' }
+      end
+
+      it 'has the correct honorific' do
+        expect(subject.honorific).to eq 'Hon'
+      end
+
+      it 'has the correct entered_parliament_at' do
+        expect(subject.entered_parliament_at).to eq Date.parse('14 October 1996')
+      end
+
+      it 'has the correct list of parliaments_in' do
+        expect(subject.parliaments_in).to eq [45, 46, 47, 48, 49, 50, 51]
+      end
+    end
 
   end
 
