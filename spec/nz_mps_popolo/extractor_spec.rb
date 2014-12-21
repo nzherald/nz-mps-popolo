@@ -76,7 +76,22 @@ describe NZMPsPopolo::Extractor do
                              'Member, Standing Orders Committee']
       end
 
+      it 'returns former roles' do
+        roles = subject.former_roles
+        expect(roles['Portfolios'].count).to be 4
+        expect(roles['Select Committees'].count).to be 22
+        expect(roles['Parliamentary Services Commission and Committees'].count).to be 3
+        expect(roles['Party Roles'].count).to be 3
+        expect(roles['Spokesperson Roles'].count).to be 10
+      end
 
+      it 'returns an image' do
+        expect(subject.image).to eq 'http://www.parliament.nz/resource/en-NZ/51MP141/c96f0c33ed5cb2b310b9e793f4bab9ee1928fb7c'
+      end
+
+      it 'returns links' do
+        expect(subject.links.count).to eq 5
+      end
     end
 
   end
