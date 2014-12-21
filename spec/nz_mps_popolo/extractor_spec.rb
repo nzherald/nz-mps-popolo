@@ -64,6 +64,19 @@ describe NZMPsPopolo::Extractor do
                              end_date: nil
                            ])
       end
+
+      it 'returns current roles' do
+        roles = subject.current_roles
+        expect(roles).to eq ['Leader of the House',
+                             'Minister for Canterbury Earthquake Recovery',
+                             'Minister Responsible for the Earthquake Commission',
+                             'Minister of Defence',
+                             'Member, Business Committee',
+                             'Member, Privileges Committee',
+                             'Member, Standing Orders Committee']
+      end
+
+
     end
 
   end
