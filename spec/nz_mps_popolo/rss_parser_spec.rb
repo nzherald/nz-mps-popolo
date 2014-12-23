@@ -19,6 +19,6 @@ describe NZMPsPopolo::RSSParser do
 
   it 'holds an an array of MPs' do
     expect(subject.mps).to be_a Array
-    expect(subject.mps.map(&:class).uniq).to eq [NZMPsPopolo::MP]
+    expect(subject.mps.map(&:class).uniq).to eq [NZMPsPopolo::Models::MP]
   end
 end

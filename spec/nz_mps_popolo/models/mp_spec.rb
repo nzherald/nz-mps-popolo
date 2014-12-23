@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe NZMPsPopolo::MP do
-  subject { NZMPsPopolo::MP }
+describe NZMPsPopolo::Models::MP do
+  subject { NZMPsPopolo::Models::MP }
 
   let(:valid_attributes) do
     {

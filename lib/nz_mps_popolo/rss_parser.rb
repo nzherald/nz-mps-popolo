@@ -32,7 +32,7 @@ module NZMPsPopolo
 
     def generate_from_feed
       feed.entries.map do |item|
-        MP.new(parse_feed_item(item))
+       Models::MP.new(parse_feed_item(item))
       end
     end
 

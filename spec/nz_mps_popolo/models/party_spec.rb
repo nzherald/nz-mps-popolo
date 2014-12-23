@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe NZMPsPopolo::Party do
-  subject { NZMPsPopolo::Party }
+describe NZMPsPopolo::Models::Party do
+  subject { NZMPsPopolo::Models::Party }
 
   it 'requires a name' do
     expect { subject.new(wrong_key: 'foo') }.to raise_error KeyError
@@ -19,7 +19,7 @@ describe NZMPsPopolo::Party do
 
       result = subject.from_mps([mp_1, mp_2, mp_3])
 
-      expect(result.map(&:class).uniq).to eq [NZMPsPopolo::Party]
+      expect(result.map(&:class).uniq).to eq [NZMPsPopolo::Models::Party]
       expect(result[0].name).to eq 'Apple'
       expect(result[1].name).to eq 'Pear'
       expect(result[2].name).to eq 'Orange'

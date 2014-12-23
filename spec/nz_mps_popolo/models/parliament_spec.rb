@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe NZMPsPopolo::Parliament do
-  subject { NZMPsPopolo::Parliament }
+describe NZMPsPopolo::Models::Parliament do
+  subject { NZMPsPopolo::Models::Parliament }
 
   it 'requires an ordinal number' do
     expect { subject.new(wrong_key: 'foo') }.to raise_error KeyError
