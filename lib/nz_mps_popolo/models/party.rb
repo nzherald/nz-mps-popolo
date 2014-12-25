@@ -1,7 +1,10 @@
 module NZMPsPopolo
   module Models
     class Party
+      include Serializers::Popolo
       attr_reader :name
+
+      popolo_type :organization
 
       def initialize(options)
         @name = options.fetch(:name)
