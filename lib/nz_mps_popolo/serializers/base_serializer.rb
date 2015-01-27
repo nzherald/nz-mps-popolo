@@ -3,6 +3,7 @@ module NZMPsPopolo
     module Popolo
       def self.included(base)
         base.send :extend, ClassMethods
+        base.send :include, InstanceMethods
       end
 
       module ClassMethods
@@ -12,8 +13,15 @@ module NZMPsPopolo
           raise ArgumentError, 'Can only be :person, :organization, :membership ' +
             'or :post' unless [:person, :organization,
                                :membership, :post].include? type
-          popolo_serializer = BaseSerializer.serializer(type).new(self)
+          @popolo_type = type
         end
+      end
+    end
+
+    module InstanceMethods
+      def serialize
+        @serializer ||= BaseSerializer.serializer(self.class.popolo_type).new(self)
+        @serializer.serialize
       end
     end
 

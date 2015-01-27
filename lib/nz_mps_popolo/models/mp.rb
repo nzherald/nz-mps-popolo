@@ -1,6 +1,10 @@
 module NZMPsPopolo
   module Models
     class MP
+      include Serializers::Popolo
+
+      popolo_type :person
+
       attr_reader :entry_id, :first_names, :last_name, :party,
                   :electorate, :list, :details_url
 
